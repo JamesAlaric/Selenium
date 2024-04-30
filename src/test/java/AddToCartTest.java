@@ -27,7 +27,6 @@ public class AddToCartTest {
         WebElement productButton = driver.findElement(By.id("style_btn_add_cart__gTXM7"));
         productButton.click();
 
-        // Attendre que la modal s'affiche (si nécessaire)
 
         // Trouver et cliquer sur le bouton "Ajouter au panier" dans la modal
         WebElement addToCartButtonModal = driver.findElement(By.id("style_btn_add_cart__gTXM7"));
